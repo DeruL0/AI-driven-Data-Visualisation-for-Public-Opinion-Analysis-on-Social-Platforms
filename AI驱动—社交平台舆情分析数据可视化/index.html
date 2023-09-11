@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI驱动——社交平台舆情分析</title>
+    <link rel="stylesheet" href="css/index.css">
+    <style>
+
+    </style>
+</head>
+
+<body onclick="window.location.href = 'projectBackground.html';">
+    <script>
+        document.addEventListener('mousemove', (e) => {
+            const footer = document.getElementById('footer');
+            const windowHeight = window.innerHeight;
+            const footerThreshold = windowHeight * 0.3;
+
+            if (windowHeight - e.clientY <= footerThreshold) {
+                footer.style.bottom = '0';
+            } else {
+                footer.style.bottom = '-200px';
+            }
+        });
+    </script>
+    <div id="start">
+        <div class="container">
+            <div class="title">
+                <h1>AI驱动——社交平台舆情分析</h1>
+                <h1>数据可视化设计</h1>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <h4>地图来源：中国地图数据可视化库china.js，审图号：GS(2021)6026号</h4>
+        <h4>数据来源：网络爬虫爬取</h4>
+    </div>
+</body>
+
+</html>

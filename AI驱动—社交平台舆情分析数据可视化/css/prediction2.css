@@ -1,0 +1,239 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("../img/bg.jpg");
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header {
+    padding: -10px 1;
+    background: url(../img/title.png) no-repeat center;
+}
+
+#time {
+    color: rgb(155, 217, 255);
+    position: absolute;
+    left: 10%;
+    top: 30px;
+}
+
+.back {
+    font-size: 15px;
+    position: absolute;
+    left: 1%;
+    background-image: url('../img/bt-1.png');
+    background-size: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    padding: 5px;
+}
+
+.back:hover {
+    font-size: 15px;
+    position: absolute;
+    left: 1%;
+    background-image: url('../img/bt-1-a.png');
+    background-size: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    padding: 5px;
+}
+
+.back a {
+    text-decoration: none;
+    color: rgb(91, 141, 170);
+}
+
+.title {
+    font-size: 18px;
+    position: relative;
+    left: 47%;
+}
+
+.title h2 {
+    color: aliceblue;
+}
+
+.nav {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    right: 1%;
+}
+
+.nav a {
+	text-decoration: none;
+	color: #333;
+	padding: 5px 10px;
+	margin: 0 5px;
+	position: relative;
+	background-image: url('../img/bt.png');
+	background-size: 100%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 70px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	padding: 5px;
+}
+
+.nav a.prediction {
+	color: rgb(155, 217, 255);
+	background-image: url('../img/bt-a.png');
+}
+
+.nav a:hover {
+	text-decoration: none;
+	color: rgb(155, 217, 255);
+	padding: 5px 10px;
+	margin: 0 5px;
+	position: relative;
+	background-image: url('../img/bt-a.png');
+	background-size: 100%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 70px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	padding: 5px;
+}
+
+.nav a.prediction:hover {
+	color: rgb(155, 217, 255);
+	background-image: url('../img/bt-a.png');
+}
+
+#main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 30px 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.pre {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0px 10px;
+}
+
+.pre a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    margin: 0 5px;
+    position: relative;
+    background-image: url('../img/bt-3.png');
+    background-size: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    padding: 5px;
+}
+
+.pre a.elderly {
+    color: rgb(135, 249, 182);
+    background-image: url('../img/bt-3-a.png');
+}
+
+.pre a:hover {
+    text-decoration: none;
+    color: rgb(135, 249, 182);
+    padding: 5px 10px;
+    margin: 0 5px;
+    position: relative;
+    background-image: url('../img/bt-3-a.png');
+    background-size: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    padding: 5px;
+}
+
+.pre a.elderly:hover {
+    color: rgb(135, 249, 182);
+    background-image: url('../img/bt-3-a.png');
+}
+
+label {
+    color: white;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    padding: 10px;
+}
+
+button {
+    border: 0px;
+    width: 100px;
+    height: 25px;
+    background: url(../img/bt-2-2.png) no-repeat;
+    color: rgb(169, 252, 255);
+}
+
+button:hover {
+    border: 0px;
+    width: 100px;
+    height: 25px;
+    background: url(../img/bt-2-a-2.png) no-repeat;
+}
+
+#num {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    padding: 10px;
+}/* 居中标题和段落 */
+h3, p {
+    text-align: center;
+}
+
+/* 修改标题的颜色 */
+h3 {
+    color: white; /* 例如，将标题颜色修改为蓝色 */
+}
+
+/* 修改段落的颜色 */
+p {
+    color: grey; /* 例如，将段落颜色修改为绿色 */
+}
